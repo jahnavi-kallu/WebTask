@@ -9,7 +9,7 @@
     height: 150vh;
 }
 .navbar{
-    width: 1200px;
+    width: 1200%;
     height: 75px;
     margin: auto;
 }
@@ -23,7 +23,7 @@
     margin-top: 5px;
 }
 .menu{
-    width:400px;
+    width:400%;
     float:left;
     height:70px;
 }
