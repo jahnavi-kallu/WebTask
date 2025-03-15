@@ -6,7 +6,7 @@
     background-image: linear-gradient( rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url(img5.jpeg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
 }
 .navbar{
     width: 1200px;
@@ -54,11 +54,16 @@ ul li a:hover{
     text-align: left;
     padding-top: 100px;
     padding-left: 50px;
-    color:burlywood;
+    color:chocolate;
     font-family: Arial;
 }
+#HOME h4{
+    color:burlywood;
+    padding-top: 5px;
+}
+
 #ABOUT img{
-    width: 200px;
+    width: 250px;
     float:left;
     padding-top:40px ;
     padding-left: 30px;
@@ -66,15 +71,18 @@ ul li a:hover{
 #ABOUT div{
     float:left;
     margin-left: 20px;
-    width: 40%;
+    width: 30%;
     color:cornsilk;
     padding-top: 40px;
     padding-right: 30px;
     font-size: large;
 }
+#ABOUT h2{
+    color:chocolate;
+}
 #EVENTTIMELINE{
     color:antiquewhite;
-    padding-top: 170px;
+    padding-top: 230px;
     width:90%;
     padding-left:30px;
 }
@@ -82,7 +90,7 @@ ul li a:hover{
     text-align: center;
 }
 .event{
-    padding-left: 15px;
+    padding-left: 20px;
     margin-bottom: 20px;
 }
 .event h2{
@@ -97,6 +105,7 @@ ul li a:hover{
     color:cadetblue;
     font-weight: bold;
     font-size: medium;
+    padding-top: 10px;
 }
 #GALLERY{
     text-align: center;
@@ -125,7 +134,7 @@ ul li a:hover{
 #TESTIMONIALS{
     background-color: black;
     padding:20px;
-    color:white;
+    color:chocolate;
     text-align: center;
 }
 .testimonial{
@@ -142,11 +151,36 @@ ul li a:hover{
 }
 #CONTACT{
     background-color: black;
-    color: azure;
-    font-family: Arial;
+    color:chocolate;
     text-align: center;
 }
 .contact-details{
     background-color: black;
     color:bisque;
+    font-size: large;
+}
+.register-form label {
+    display: block;   
+    margin-top: 10px; 
+    font-weight: bold;
+}
+
+.register-form input{
+    width: 100%;      
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+.register-form{
+    color:black;
+}
+.register-form button{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.register button{
+    font-size: medium;
+    font-weight: bolder;
+    color: burlywood;
 }
