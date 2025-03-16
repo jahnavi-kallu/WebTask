@@ -1,9 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;}
+    margin:0;
+    padding: 0;
+}
 .main{
     width: 100%;
-    background-image: linear-gradient( rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url(img5.jpeg);
+    background-image:linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img5.jpeg);
     background-position: center;
     background-size: cover;
     height: 150vh;
@@ -11,9 +12,8 @@
 .navbar{
     width: 1200%;
     height: 75px;
-    margin: auto;
 }
-.header{
+.heading{
     color:aliceblue;
     font-size: 35px;
     font-family:Arial;
@@ -34,18 +34,15 @@ ul{
     align-items: center;
 }
 ul li{
-    list-style-type: none;
     margin-left: 60px;
     margin-top: 30px;
     font-size: 15px;
     padding-bottom: 30px;
 }
 ul li a{
-    text-decoration: none;
     color:antiquewhite;
     font-family: 'Segoe UI';
     font-weight: bold;
-    transition: 0.4s,ease-in-out;
 }
 ul li a:hover{
     color:orange;
@@ -98,7 +95,6 @@ ul li a:hover{
     font-family: Arial;
 }
 .event h3{
-    margin:0;
     color:khaki;
 }
 .time{
@@ -124,12 +120,7 @@ ul li a:hover{
     width:50%;
     height: 200px;
     border-radius:8px;
-    box-shadow:rgba(0,0,0,0.2);
-    transition: transform 0.3s ease;
     object-fit: cover;
-}
-.gallery img:hover {
-    transform: scale(1.05);
 }
 #TESTIMONIALS{
     background-color: black;
@@ -145,7 +136,7 @@ ul li a:hover{
     color:beige;
     font-size:x-large;
 }
-.author{
+.saidby{
     font-weight: bold;
     padding-left: 20px;
 }
@@ -174,9 +165,10 @@ ul li a:hover{
     margin-top: 5px;
     box-sizing:content-box;
     border-color: chocolate;
-    color:bisque;
+    color:black;
     font-size:medium;
     padding-left:30px;
+    font-weight: bold;
 }
 .register-form button{
     margin-bottom: 20px;
@@ -199,4 +191,34 @@ ul li a:hover{
     color: burlywood;
     font-size: xx-large;
     padding-top: 10px;
+}
+.footer-section{
+    color:beige;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer-section h2{
+    font-weight: bold;
+    color: chocolate;
+}
+.footer {
+    background-color:black; 
+    color:aquamarine;
+    text-align: center;
+    padding: 10px;
+}
+.footer a {
+    margin: 0 15px;
+    color:beige;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer a:hover {
+    color:burlywood;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
 }
