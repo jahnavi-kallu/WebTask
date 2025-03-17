@@ -1,17 +1,13 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    overflow-x: hidden;
 }
 .main{
     width: 100%;
     background-image:linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img5.jpeg);
     background-position: center;
     background-size: cover;
-    height: 250vh;
+    height: 225vh;
 }
 .navbar{
     width: 1200%;
@@ -143,12 +139,10 @@ ul li a:hover{
     padding-left: 20px;
 }
 #CONTACT{
-  
     color:chocolate;
     text-align: center;
 }
 .contact-details{
-
     color:bisque;
     font-size: large;
 }
@@ -165,17 +159,14 @@ ul li a:hover{
     width: 50%;      
     padding: 15px;
     margin-top: 5px;
-    box-sizing:content-box;
-    border-color: chocolate;
     color:black;
     font-size:medium;
     padding-left:30px;
     font-weight: bold;
 }
 .register-form button{
-    margin-bottom: 20px;
     font-weight: bold;
-    text-align: center;
+    font-size:x-large;
 }
 .register button{
     font-size: medium;
@@ -209,12 +200,10 @@ ul li a:hover{
     padding: 10px;
 }
 .footer a {
-    margin: 0 15px;
+    margin:  15px;
     color:beige;
-    text-decoration: none;
     font-size: 24px;
 }
-
 .footer a:hover {
     color:burlywood;
 }
