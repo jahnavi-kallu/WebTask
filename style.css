@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     overflow-x: hidden;
@@ -10,7 +11,7 @@ body{
     background-image:linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img5.jpeg);
     background-position: center;
     background-size: cover;
-    height: 150vh;
+    height: 250vh;
 }
 .navbar{
     width: 1200%;
@@ -109,12 +110,12 @@ ul li a:hover{
 #GALLERY{
     text-align: center;
     color:antiquewhite;
-    background-color: black;
+   
 }
 .photos{
     padding: 20px;
     align-items: center;
-    background-color: black;
+   
     justify-content: center;
     display:flex;
      gap:15px;
@@ -126,14 +127,12 @@ ul li a:hover{
     object-fit: cover;
 }
 #TESTIMONIALS{
-    background-color: black;
+    
     padding:20px;
     color:chocolate;
     text-align: center;
 }
-.testimonial{
-    background-color: black;
-}
+
 .testimonial p{
     font-style: oblique;
     color:beige;
@@ -144,12 +143,12 @@ ul li a:hover{
     padding-left: 20px;
 }
 #CONTACT{
-    background-color: black;
+  
     color:chocolate;
     text-align: center;
 }
 .contact-details{
-    background-color: black;
+
     color:bisque;
     font-size: large;
 }
@@ -197,7 +196,6 @@ ul li a:hover{
 }
 .footer-section{
     color:beige;
-    background-color: black;
     text-align: center;
     padding-top: 10px;
 }
@@ -206,7 +204,6 @@ ul li a:hover{
     color: chocolate;
 }
 .footer {
-    background-color:black; 
     color:aquamarine;
     text-align: center;
     padding: 10px;
