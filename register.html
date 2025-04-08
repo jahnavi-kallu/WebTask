@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register for Cultural Fest</title>
     <link rel="stylesheet" href="style.css">
+
     <body>
+
         <div class="register-form">
             <h1>Register Now</h1>
-            <form>
+            <form id="registerform">
                 <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-    
+                <input type="text" id="name"name="name" placeholder="Enter your Name" required/>
                 <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-    
+                <input type="email" id="email" name="email" placeholder="Your Email address"  required/>
                 <label for="phone">Your Phone Number:</label>
-                <input type="tel" id="phone" name="phone" required> 
-                
-                <button type="submit">Submit Registration</button>
+                <input type="tel" id="phone" name="phone" placeholder="Phone (10 digits)" autocomplete="tel" required/>
+                <br>
+                <label for="event">Select Event</label>
+                <select id="choosefield" name="choosefield" required>
+                    <option value="">Select Field</option>
+                    <option value="dance">Dance</option>
+                    <option value="music">Music</option>
+                    <option value="drama">Art</option>
+                  </select>
+                <br>
+                <button id="submit">Submit Registration</button>
         </form>
     </div>
+       <div id="modalPopup">
+        <div class="modalcont" id="modalMsg">
+          <p>Registration Status</p>
+      </div>
+      <script src="index.js"></script>
+     
 </body>
+       
 </html>

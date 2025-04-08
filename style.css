@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 .main{
     width: 100%;
@@ -12,20 +13,26 @@
 .navbar{
     width: 100%;
     height: 75px;
+    text-align: center;
 }
 .heading{
-    color:aliceblue;
-    font-size: 35px;
+    color:antiquewhite;
+    font-size: 56px;
     font-family:Arial;
-    padding-left:20px;
-    float:left;
-    padding-top: 10px;
-    margin-top: 5px;
+    text-align: left;
+    padding-top:15px;
+    background-color:chocolate;
+    position: fixed;
+    width:40%;
 }
 .menu{
-    width:100%;
-    float:left;
-    height:70px;
+    position:fixed;
+    width:60%;
+    top:0%;
+    right:0px;
+    text-align: right;
+    background-color:chocolate;
+    margin-bottom: 70px;
 }
 ul{
     float:left;
@@ -48,51 +55,61 @@ ul li a:hover{
     color:orange;
 }
 #HOME {
-    text-align: left;
-    padding-top: 100px;
+    text-align: center;
+    padding-top: 50px;
     padding-left: 50px;
     color:chocolate;
-    font-family: Arial;
+    font-family:Arial;
 }
 #HOME h4{
     color:burlywood;
     padding-top: 5px;
+    font-size: larger;
 }
 
 #ABOUT img{
     width: 250px;
     float:left;
     padding-top:40px ;
-    padding-left: 30px;
+    padding-left:10px;
 }
 #ABOUT div{
-    float:left;
-    margin-left: 20px;
-    width: 30%;
+    text-align: center;
     color:cornsilk;
     padding-top: 40px;
-    padding-right: 30px;
-    font-size: large;
+    padding-right:60px;
+    font-size:25px;
 }
 #ABOUT h2{
     color:chocolate;
+  
 }
 #EVENTTIMELINE{
     color:antiquewhite;
-    padding-top: 230px;
-    width:90%;
+    width:100%;
     padding-left:30px;
+    padding-top: 75px;
 }
 #EVENTTIMELINE h1{
     text-align: center;
+
 }
 .event{
-    padding-left: 20px;
-    margin-bottom: 20px;
+
+    text-align: center;
+    margin: 20px auto;
+    background-color:chocolate;
+    border: 1px bisque;
+    border-style: dashed;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    
 }
 .event h2{
-    color:burlywood;
+
     font-family: Arial;
+    color: black;
 }
 .event h3{
     color:khaki;
@@ -116,7 +133,7 @@ ul li a:hover{
 }
 .photos img{
     width:100%;
-    height: 200px;
+    height: 300px;
     border-radius:8px;
     object-fit: cover;
 }
@@ -125,6 +142,7 @@ ul li a:hover{
     padding:20px;
     color:chocolate;
     text-align: center;
+    background-color: black;
 }
 
 .testimonial p{
@@ -166,15 +184,24 @@ ul li a:hover{
 .register-form button{
     font-weight: bold;
     font-size:x-large;
+    margin-top: 20px;
 }
 .register button{
     font-size: medium;
     font-weight: bolder;
     color: burlywood;
+    margin-top: 100px;
 }
+.register-form select{
+    tab-size: 30px;
+    font-size: large;
+    margin: 20px;
+}
+
 .register-form{
+    text-align: center;
     width: 100%;
-    background-image: linear-gradient( rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(img4.webp);
+    background-image: linear-gradient( rgba(0,0,0,0.6)100%,rgba(0,0,0,0.6)100%),url(img4.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -182,7 +209,7 @@ ul li a:hover{
 .register-form h1{
     color: burlywood;
     font-size: xx-large;
-    padding-top: 10px;
+    padding-top: 60px;
 }
 .footer-section{
     color:beige;
@@ -211,3 +238,17 @@ ul li a:hover{
     width: 30px;
     height: 30px;
 }
+#modalPopup {
+    top: 0;
+    left:0;
+    right:0;
+    position: fixed;
+    color:bisque;
+    background-color:chocolate;
+    padding: 20px;
+    text-align: center;
+    font-size:large;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
