@@ -5,20 +5,20 @@ const modalMsg = document.getElementById("modalMsg");
 form.onsubmit = function (event) {
   event.preventDefault(); 
 
-  const name = document.getElementById("name").value.trim();
-  const email = document.getElementById("email").value.trim();
-  const phone = document.getElementById("phone").value.trim();
-  const eventValue = document.getElementById("choosefield").value;
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const phone = document.getElementById("phone").value;
+  const eventtype = document.getElementById("choosefield").value;
 
   const phonePattern = /^\d{10}$/;
   const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
   let message;
 
-  if (!name || !email || !phone || !eventValue) {
+  if (!name || !email || !phone || !eventtype) {
     message = "All fields are required.";
   } else if (!phonePattern.test(phone)) {
-    message = "Phone number must be exactly 10 digits.";
+    message = "Phone number contain 10 digits";
   } else if (!emailPattern.test(email)) {
     message = "Invalid email address.";
   } else {
