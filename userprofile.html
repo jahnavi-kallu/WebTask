@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-Profile Page</title>
+    <link rel="stylesheet" href="userprofile.css">
+
+</head>
+<body>
+    <div class="profile"> 
+        <h1>User-Profile</h1>
+        <div class="profile1">
+            <p>Name:<span id="username">Jahnavi</span></p>
+            <p>Email:<span id="emailaddress">kallujahnavireddy@gmail.com</span></p>
+            <p>Phone:<span id="contact">9866402303</span></p>
+            <p>Intrested field:<span id="eventtype">Music</span></p>
+            
+            <button onclick="enableEdit()">Edit Information</button>
+        </div>
+        <div class="Editinfo" id="editinfo" style="display: none;">
+            <h2>Edit Info</h2>
+            <form onsubmit="updateProfile(event)">
+              <input type="text" id="editName" placeholder="Name" required>
+              <input type="email" id="editEmail" placeholder="Email" required>
+              <input type="tel" id="editPhone" placeholder="Phone" required>
+              <select id="editint" required>
+                <option value="">Select Event</option>
+                <option value="Dance">Dance</option>
+                <option value="Music">Music</option>
+                <option value="Drama">Drama</option>
+              </select>
+              <button type="submit">Save</button>
+            </form>
+          </div>
+        </div>
+        <div id="popup" class="popup">Profile updated successfully!</div>
+        
+      
+        <script src="userprofile.js"></script>
+      </body>
+      </html>

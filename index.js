@@ -13,24 +13,24 @@ form.onsubmit = function (event) {
   const phonePattern = /^\d{10}$/;
   const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-  let message;
+  let msg;
 
   if (!name || !email || !phone || !eventtype) {
-    message = "All fields are required.";
+    msg = "All fields are required.";
   } else if (!phonePattern.test(phone)) {
-    message = "Phone number contain 10 digits";
+    msg = "Phone number contains 10 digits";
   } else if (!emailPattern.test(email)) {
-    message = "Invalid email address.";
+    msg = "Invalid email address.";
   } else {
-    message = "Registration Successful!";
+    msg = "Registration Successful!!";
     form.reset(); 
   }
 
-  showPopup(message);
+  showPopup(msg);
 };
 
-function showPopup(message) {
-  modalMsg.innerHTML = `<p>${message}</p>`;
+function showPopup(msg) {
+  modalMsg.innerHTML = `<p>${msg}</p>`;
   modalPopup.style.display = "flex";
 
   setTimeout(() => {

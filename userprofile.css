@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image:linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img5.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.profile {
+    text-align: center;
+    margin: 20px auto;
+    background-color:darkolivegreen;
+    border: 1px bisque;
+    border-style: dashed;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    color: bisque;
+    font-size: large;
+  }
+  
+  .profile1 p {
+    margin: 10px 0;
+  }
+  
+  .Editinfo input, .Editinfo select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  .popup {
+    display: none;
+    color:beige;
+    text-align: center;
+    border: 2px solid bisque;
+    width: 50%;
+    border-radius: 5px;
+    font-family:Arial;
+    font-size:large;
+    margin: 20px auto;
+  }
+  
