@@ -1,122 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,intial-scale=1.0">
-        <title>CULTURAL FEST 2K25</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="main">
-            <div class="navbar">
-            </div>
-                <div class="menu">
-                    <ul>
-                       <li><a href="#HOME">HOME</a></li>
-                       <li><a href="#ABOUT">ABOUT</a></li>
-                       <li><a href="#EVENTTIMELINE">EVENTTIMELINE</a></li>
-                       <li><a href="#GALLERY">GALLERY</a></li>
-                       <li><a href="#TESTIMONIALS">TESTIMONIALS</a></li> 
-                       <li><a href="#CONTACT">CONTACT</a></li>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CULTURAL FEST 2K25</title>
 
-                    </ul>
-                </div>
-                 <section id="HOME">
-                    <h1>Welcome to Cultural Fest 2025</h1>
-                    <h3>Experience a blend of culture,music,dance and art!!</h3>
-                    <h4>Don't miss out on the excitement! Hit the Register Now button and be part of this unforgettable journey.</h4>
-                    <h4>From classical music to hip-hop battles, every moment is packed with excitement.</h4>
-                    <h4>Date:22-03-2025 & 23-03-2025</h4>
-                    <h4>Venue:IIT Kharagpur</h4>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
-                    <a href="register.html" class="register-btn">Register Now</a>
-                 </section>
-                 <section id="ABOUT">
-                    <img src="img7.jpg">
-                    <div>
-                        <h2>About Cultural Fest</h2>
-                        <p>Welcome to Cultural Fest 2K25,a vibrant celebration of art, music, and dance!
-                           Our cultural fest is a platform where creativity meets passion,
-                           bringing together talented individuals from diverse backgrounds.</p>
-                        <p>Join us as we create unforgettable memories filled with rhythm, melody, and color.
-                           Let's celebrate culture together!
-                        </p>
-                    </div>
-                 </section>
-                 <section id="EVENTTIMELINE">
-                    <h1>EVENT TIMELINE</h1>
-                       <div class="event">
-                        <h2>Fest will be held on 22nd and 23rd March</h2>
-                        <h3>Day 1</h3>
-                        <p class="time">10:00 AM-Inauguration Ceremony</p>
-                        <p class="time">11:00 AM-Opening Dance Performance</p>
-                        <p class="time">12:00 AM-Singing Competition 1st Round</p>
-                        <p class="time">2:00 PM-Drawing Competition</p>
-                        <p class="time">4:00 PM-Dance Battle</p>
-                        <h3>Day 2</h3>
-                        <p class="time">10:00 AM-Singing Competition Final Round</p>
-                        <p class="time">11:30 AM-Dance Battle Final Round</p>
-                        <p class="time">3:00 PM-Prize Distribution</p>
-                        <p class="time">4:00 PM-Closing Ceremony</p>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar"></div>
 
-                    </div>
-                 </section>
-                 <section id="GALLERY">
-                    <h1>GALLERY</h1>
-                    <div class="photos">
-                        <img src="img1.jpg" alt="Dance Performance">
-                        <img src="img2.webp" alt="Singing Performance">
-                        <img src="img3.jpg" alt="Art">
-                        <img src="img8.jpeg" alt="art gallery">
-                        <img src="img9.jpg"  alt="dance">
-                        <img src="img10.jpeg" alt="singing">
-                    </div>
-                 </section>
-                 <section id="TESTIMONIALS">
-                    <h1>TESTIMONIALS</h1>
-                    <h2>What people say's about us</h2>
-                    <div class="testimonial">
-                        <p>"The Cultural fest was an amazing experience! 
-                            The performaces were breathtaking and I love being part of it."
-                        </p>
-                        <p class="saidby">-Sharma,Participant</p>
-                    </div>
-                    <div class="testimonial">
-                        <p>"A beautifully organized event! The music,dance and art display were truly awesome."</p>
-                        <p class="saidby">-Varma,Audience</p>
-                    </div>
-                    <div class="testimonial">
-                        <p>"Felt really great to see such energitic performances,talent
-                            and the creativity of people were extraordinary."
-                        </p>
-                        <p class="saidby">-Mr.Varma,Judge Panel</p>
-                    </div>
-                 </section>
-                 <section id="CONTACT">
-                    <h1>CONTACT US</h1>
-                    <div class="contact-details">
-                        <p><strong>Coordinator:</strong> Jahnavi</p>
-                        <p><strong>Phone:</strong>9866402303</p>
-                        <p><strong>Email:</strong>kallujahnavireddy@gmail.com</p>
-                    </div>
+      <!-- Dark Mode Toggle -->
+      <label class="dark-mode-toggle">
+        <input type="checkbox" id="darkModeSwitch" /> 🌙 Dark Mode
+      </label>
 
-                 </section>
-                 <div class="footer-section">
-                    <h2>Follow us on:</h2>
-                    <div class="footer">
-                        <a href="https://www.instagram.com" target="_blank">
-                            <img src="insta.jpeg" alt="Instagram">
-                        </a>
-                        <a href="https://www.facebook.com" target="_blank">
-                            <img src="facebook.jpeg" alt="Facebook">
-                        </a>
-                    </div>
-                    <p>&copy; Cultural Fest 2K25. All Rights Reserved.</p>
-                </div>
-                </div>
-            </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#HOME">HOME</a></li>
+          <li><a href="#ABOUT">ABOUT</a></li>
+          <li><a href="#EVENTTIMELINE">EVENT TIMELINE</a></li>
+          <li><a href="#GALLERY">GALLERY</a></li>
+          <li><a href="#TESTIMONIALS">TESTIMONIALS</a></li>
+          <li><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <section id="HOME">
+        <h1>Welcome to Cultural Fest 2025</h1>
+        <h3>Experience a blend of culture, music, dance and art!!</h3>
+        <h4>
+          Don't miss out on the excitement! Hit the Register Now button and be
+          part of this unforgettable journey.
+        </h4>
+        <h4>
+          From classical music to hip-hop battles, every moment is packed with
+          excitement.
+        </h4>
+        <h4>Date: 22-03-2025 & 23-03-2025</h4>
+        <h4>Venue: IIT Kharagpur</h4>
+
+        <a href="register.html" class="register-btn">Register Now</a>
+      </section>
+
+      <section id="ABOUT">
+        <img src="img7.jpg" />
+        <div>
+          <h2>About Cultural Fest</h2>
+          <p>
+            Welcome to Cultural Fest 2K25, a vibrant celebration of art, music,
+            and dance! Our cultural fest is a platform where creativity meets
+            passion, bringing together talented individuals from diverse
+            backgrounds.
+          </p>
+          <p>
+            Join us as we create unforgettable memories filled with rhythm,
+            melody, and color. Let's celebrate culture together!
+          </p>
         </div>
+      </section>
 
-    </body>
+      <section id="EVENTTIMELINE">
+        <h1>EVENT TIMELINE</h1>
+        <div class="event">
+          <h2>Fest will be held on 22nd and 23rd March</h2>
+          <h3>Day 1</h3>
+          <p class="time">10:00 AM - Inauguration Ceremony</p>
+          <p class="time">11:00 AM - Opening Dance Performance</p>
+          <p class="time">12:00 PM - Singing Competition 1st Round</p>
+          <p class="time">2:00 PM - Drawing Competition</p>
+          <p class="time">4:00 PM - Dance Battle</p>
+          <h3>Day 2</h3>
+          <p class="time">10:00 AM - Singing Competition Final Round</p>
+          <p class="time">11:30 AM - Dance Battle Final Round</p>
+          <p class="time">3:00 PM - Prize Distribution</p>
+          <p class="time">4:00 PM - Closing Ceremony</p>
+        </div>
+      </section>
+
+      
+      <section id="GALLERY">
+        <h1>GALLERY</h1>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img1.jpg" alt="Dance" /></div>
+            <div class="swiper-slide"><img src="img2.webp" alt="Singing" /></div>
+            <div class="swiper-slide"><img src="img3.jpg" alt="Art" /></div>
+            <div class="swiper-slide"><img src="img8.jpeg" alt="Gallery" /></div>
+            <div class="swiper-slide"><img src="img9.jpg" alt="Performance" /></div>
+            <div class="swiper-slide"><img src="img10.jpeg" alt="Event" /></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+      <section id="TESTIMONIALS">
+        <h1>TESTIMONIALS</h1>
+        <h2>What people say about us</h2>
+        <div class="testimonial">
+          <p>
+            "The Cultural fest was an amazing experience! The performances were
+            breathtaking and I loved being part of it."
+          </p>
+          <p class="saidby">- Sharma, Participant</p>
+        </div>
+        <div class="testimonial">
+          <p>
+            "A beautifully organized event! The music, dance and art display were
+            truly awesome."
+          </p>
+          <p class="saidby">- Varma, Audience</p>
+        </div>
+        <div class="testimonial">
+          <p>
+            "Felt really great to see such energetic performances, talent and
+            creativity were extraordinary."
+          </p>
+          <p class="saidby">- Mr. Varma, Judge Panel</p>
+        </div>
+      </section>
+
+      <section id="CONTACT">
+        <h1>CONTACT US</h1>
+        <div class="contact-details">
+          <p><strong>Coordinator:</strong> Jahnavi</p>
+          <p><strong>Phone:</strong> 9866402303</p>
+          <p><strong>Email:</strong> kallujahnavireddy@gmail.com</p>
+        </div>
+      </section>
+
+      <div class="footer-section">
+        <h2>Follow us on:</h2>
+        <div class="footer">
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="insta.jpeg" alt="Instagram" />
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="facebook.jpeg" alt="Facebook" />
+          </a>
+        </div>
+        <p>&copy; Cultural Fest 2K25. All Rights Reserved.</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+        }
+      });
+
+    
+      const toggle = document.getElementById("darkModeSwitch");
+      toggle.addEventListener("change", () => {
+        document.body.classList.toggle("dark-mode");
+      });
+    </script>
+  </body>
 </html>
